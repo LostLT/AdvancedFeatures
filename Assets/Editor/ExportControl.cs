@@ -12,7 +12,7 @@ public class ExportControl : MonoBehaviour {
 		
 	}
 	
-	public static void PreExportMethod (string path) {
+	public static void PostExportMethod (string path) {
 		
 		Debug.Log("******THE POSTEXPORT TOOL WORKS!!******");
 		
