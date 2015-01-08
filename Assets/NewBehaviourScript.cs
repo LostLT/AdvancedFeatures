@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
+using UnityEditor;
 using System.Collections;
 
 public class NewBehaviourScript : MonoBehaviour {
+
+	string path;
 
 	public static void PreExportMethod () {
 
@@ -9,7 +12,7 @@ public class NewBehaviourScript : MonoBehaviour {
 
 	}
 
-	public static void PostExportMethod () {
+	public static void PreExportMethod (string path) {
 		
 		Debug.Log("******THE POSTEXPORT TOOL WORKS!!******");
 		
