@@ -1,22 +1,7 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using System.Collections;
 
 public class NewBehaviourScript : MonoBehaviour {
-
-	string path;
-
-	public static void PreExportMethod () {
-
-		Debug.Log("******THE PREEXPORT TOOL WORKS!!******");
-
-	}
-
-	public static void PreExportMethod (string path) {
-		
-		Debug.Log("******THE POSTEXPORT TOOL WORKS!!******");
-		
-	}
 
 	// Use this for initialization
 	void OnGUI () {
