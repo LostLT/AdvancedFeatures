@@ -15,7 +15,7 @@ public class Pre : MonoBehaviour {
 	
 	}
 
-	public static void PostExport() {
+	public static void Export() {
 
 		Debug.Log ("Pre-Export fired");
 
