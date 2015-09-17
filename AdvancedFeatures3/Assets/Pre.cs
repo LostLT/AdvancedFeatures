@@ -1,24 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Pre : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	
-	}
+public static class Pre {
 
 	public static void Export() {
 
 		Debug.Log ("Pre-Export fired");
-
 
 	}
 }
